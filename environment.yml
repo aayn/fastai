@@ -6,8 +6,8 @@ channels:
 - peterjc123
 dependencies:
 - scipy
-- cuda90
-- cudnn
+- cuda80
+- cudnn==6.0
 - numpy
 - pillow
 - jpeg
@@ -96,7 +96,7 @@ dependencies:
   - torchvision>=0.1.9
   - opencv-python
   - isoweek
-  - pandas_summary==0.0.5
+  - pandas_summary
   - torchtext
   - graphviz
   - sklearn_pandas
